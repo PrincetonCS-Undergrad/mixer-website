@@ -2,25 +2,27 @@ baseurl: https://princetoncs-undergrad.github.io/mixer-website/
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: COS Undergrad Mixer
+enableEmoji: true
+enableGitInfo: true
 
 languages:
   en:
     languageName: English
-    title: Example Site
-    description: Example description
+    title: COS Undergrad Mixer
+    description: This is the website for the COS Undergrad Mixer
     weight: 1
-  zh-cn:
-    languageName: 中文
-    title: 演示站点
-    description: 演示说明
-    weight: 2
-  ar:
-    languageName: عربي
-    languagedirection: rtl
-    title: موقع تجريبي
-    description: وصف تجريبي
-    weight: 3
+  # zh-cn:
+  #   languageName: 中文
+  #   title: 演示站点
+  #   description: 演示说明
+  #   weight: 2
+  # ar:
+  #   languageName: عربي
+  #   languagedirection: rtl
+  #   title: موقع تجريبي
+  #   description: وصف تجريبي
+  #   weight: 3
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
@@ -56,15 +58,15 @@ params:
     lastUpdated: Jan 02, 2006 15:04 MST
 
   sidebar:
-    emoji: 🍥
-    subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    emoji: ""
+    subtitle: Socializing, Networking, and Fun with Princeton University's Department of Computer Science.
     avatar:
       enabled: true
       local: true
-      src: img/avatar.png
+      src: img/mixer-1.jpeg
 
   article:
-    math: false
+    math: true
     toc: true
     readingTime: true
     license:
@@ -179,7 +181,7 @@ params:
 
   colorScheme:
     # Display toggle
-    toggle: true
+    toggle: false
 
     # Available values: auto, light, dark
     default: auto
@@ -196,18 +198,18 @@ params:
 menu:
   main: []
 
-  social:
-    - identifier: github
-      name: GitHub
-      url: https://github.com/CaiJimmy/hugo-theme-stack
-      params:
-        icon: brand-github
+  # social:
+  #   - identifier: github
+  #     name: GitHub
+  #     url: https://github.com/CaiJimmy/hugo-theme-stack
+  #     params:
+  #       icon: brand-github
 
-    - identifier: twitter
-      name: Twitter
-      url: https://twitter.com
-      params:
-        icon: brand-twitter
+  #   - identifier: twitter
+  #     name: Twitter
+  #     url: https://twitter.com
+  #     params:
+  #       icon: brand-twitter
 
 related:
   includeNewer: true
