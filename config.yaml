@@ -1,4 +1,4 @@
-baseurl: https://princetoncs-undergrad.github.io/mixer-website/
+baseurl: https://mixer.cs.princeton.edu
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
