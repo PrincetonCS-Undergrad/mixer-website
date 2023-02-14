@@ -43,6 +43,7 @@ permalinks:
   page: /:slug/
 
 params:
+  githubEdit: "https://github.com/PrincetonCS-Undergrad/mixer-website/edit/main/content/"
   mainSections:
     - post
   featuredImageField: image
