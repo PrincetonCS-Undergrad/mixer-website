@@ -48,7 +48,7 @@ params:
     - post
   featuredImageField: image
   rssFullContent: true
-  favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+  favicon: "https://www.cs.princeton.edu/sites/all/themes/pucs_bootstrap/favicon.ico" # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
   footer:
     since: 2023
@@ -64,7 +64,7 @@ params:
     avatar:
       enabled: true
       local: true
-      src: img/mixer-1.jpeg
+      src: img/mixer-2-11-small-square.png
 
   article:
     math: true
