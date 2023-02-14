@@ -18,11 +18,11 @@ links:
   - title: Princeton Women In Computer Science (PWiCS)
     description: "Princeton Women in Computer Science (PWiCS) was formed in May of 2010 by two female computer science undergraduates who wanted to find a way to allow the small number of women in the computer science department at Princeton to meet each other and encourage other women to see how much fun it is to be a computer scientist.  The group started out holding course advising study breaks for younger students, and now has grown into hosting many other kinds of events. Today, PWiCS plans regular events with opportunities for students to bond and for underclassmen to seek advice from upperclassmen. In addition, PWiCS partners up with companies such as Google, Facebook, and Microsoft for information sessions, workshops, talks, and other corporate sponsorship events. PWiCS also plays an active role in community outreach, attending the Society of Women Engineers’ annual High School Colloquium and  planning computer science workshops for middle school and high school students."
     website: https://www.princetonwics.org/
-    image: Screen Shot 2019-03-26 at 2_33_04 AM.webp
+    image: PWiCS-logo.webp
 
 menu:
   main:
-    weight: -50
+    weight: -80
     params:
       icon: link
 
